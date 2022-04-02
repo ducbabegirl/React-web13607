@@ -5,9 +5,24 @@ type Props = {}
 
 const Menu = (props: Props) => {
   return (
-    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+    <><li className="header__nav-item index">
+      <NavLink className="header__nav-link" aria-current="page" to="/">Home</NavLink>
+    </li><li className="header__nav-item">
+      
+        <NavLink className="header__nav-link"  to="/product">Giới Thiệu</NavLink>
+      </li><li className="header__nav-item">
+        <a href="./listProduct.html" className="header__nav-link">Sản Phẩm</a>
+      </li><li className="header__nav-item">
+        <a href="news.html" className="header__nav-link">Tin Tức</a>
+      </li><li className="header__nav-item">
+        <a href="contact.html" className="header__nav-link">Liên Hệ</a>
+      </li><ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+
+        
         <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
+          <NavLink className="header__nav-item" aria-current="page" to="/">Home</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/product">Product</NavLink>
@@ -21,7 +36,7 @@ const Menu = (props: Props) => {
         <li className="nav-item">
           <NavLink className="nav-link" to="/add">Manager Product</NavLink>
         </li>
-      </ul>
+      </ul></>
   )
 }
 
