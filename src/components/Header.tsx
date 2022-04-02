@@ -5,11 +5,18 @@ import Menu from "./Menu";
 import Search from "./Search";
 
 import '../Apphome.css';
-import logo from "../img/logo.png";
-import BackgroundHeader from "../img/ban.gif";
+import '../pro.css';
+import '../produc.css';
+import '../libra.css';
+import '../new.css';
 
+import logo from "../img/logo.png"; 
+
+
+import BackgroundHeader from "../img/ban.gif";
 const BackgroundHead = {
-  backgroundImage: 'url(' + BackgroundHeader + ')'
+  backgroundImage: 'url(' + BackgroundHeader + ')',
+  
 }
 const Header = () => {
   return (
