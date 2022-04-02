@@ -3,6 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Menu from "./Menu";
 import Search from "./Search";
+
 import '../Apphome.css';
 import logo from "../img/logo.png";
 import BackgroundHeader from "../img/ban.gif";
@@ -94,7 +95,10 @@ const Header = () => {
         
 
 
+         <div>
          
+          
+         </div>
 
         </div>
       </div>
@@ -104,7 +108,7 @@ const Header = () => {
 
       </div>
       
-
+     
 
 
     </div></>

@@ -28,7 +28,14 @@ function App() {
         setProducts(data);
      }
      getProducts();
+
+     const getProduct = async () =>{
+      const {data} = await axios.get(' http://localhost:3001/products');
+      setProducts(data);
+    }
+    getProduct();
   },[])
+  
 
  //-------------------------------------------------------
   const onHandleRemove = async (id: number) => {
@@ -52,8 +59,9 @@ function App() {
   return ( 
     <Routes>
       <Route path="/" element={<WebsiteLayout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Home products={products} />} />
           <Route path="product" element={<Product />} />
+          
           <Route path="signup" element={<Signup />}/>
           <Route path="signin" element={<Signin />}/>
       </Route>

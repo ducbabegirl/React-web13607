@@ -1,10 +1,23 @@
 import React from 'react'
 
-type Props = {}
+import { ProductType } from '../types/produc';
 
-const News = (props: Props) => {
+type NewsProps = {
+  data: ProductType[],
+}
+
+const News = (props: NewsProps) => {
   return (
-    <div>new</div>
+    <>
+    
+    <button>ADD</button>
+    
+    <tbody>
+      <button>ADD</button>
+
+
+    </tbody></>
+
   )
 }
 
