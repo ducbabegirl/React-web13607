@@ -21,7 +21,7 @@ const Menu = (props: Props) => {
 
 
         
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink className="header__nav-item" aria-current="page" to="/">Home</NavLink>
         </li>
         <li className="nav-item">
@@ -35,7 +35,7 @@ const Menu = (props: Props) => {
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/add">Manager Product</NavLink>
-        </li>
+        </li> */}
       </ul></>
   )
 }
