@@ -59,21 +59,7 @@ const Home = (props: HomeProps) => {
           </div>
         </div>
     
-      <tbody>
-        {props.products?.map((product) => {
-
-          return <tr>
-
-            <td>{product.name}</td> <br />
-            <br />
-            <td>{product.price}</td>
-
-          </tr>
-
-
-
-        })}
-      </tbody></>
+   </>
 
 
 
