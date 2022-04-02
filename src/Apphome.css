@@ -63,7 +63,7 @@ select:-webkit-autofill:focus {
     padding: 14px 30px;
     color: var(--white-cl-1);
     text-transform: uppercase;
-    font-size: 1.6rem;
+   
 }
 
 .btn.cart-btn {
@@ -330,7 +330,7 @@ input[type=checkbox]:checked:after {
 
 .item-user {
     display: block;
-    font-size: 1.6rem;
+    
     color: var(--white-cl-1);
     padding: 6px 8px;
     line-height: 2.2rem;
@@ -357,12 +357,12 @@ input[type=checkbox]:checked:after {
     margin-right: 16px;
     cursor: pointer;
     position: relative;
-    font-size: 1.6rem;
+ 
     color: var(--black-cl-1);
 }
 
 .header .name-user {
-    font-size: 1.6rem;
+   
     color: var(--black-cl-1);
 }
 
@@ -507,7 +507,7 @@ textarea.form-control {
     outline: none;
     background: none;
     padding: 0 16px;
-    font-size: 1.6rem;
+   
     flex-grow: 1;
     color: var(--black-cl-2);
 }
@@ -519,7 +519,7 @@ textarea.form-control {
 }
 
 .header__search-icon i {
-    font-size: 2rem;
+   
     color: var(--black-cl-1);
     font-weight: 400;
     padding-right: 16px;
@@ -675,7 +675,7 @@ textarea.form-control {
 }
 
 .total-money {
-    font-size: 1.6rem;
+  
     color: var(--black-cl-2);
     text-align: center;
     font-weight: 600;
@@ -713,7 +713,7 @@ textarea.form-control {
 
 .header__nav-link {
     display: block;
-    font-size: 1.6rem;
+  
     text-transform: uppercase;
     color: var(--white-cl-1);
     padding: 0 44px;
@@ -755,7 +755,7 @@ textarea.form-control {
 
 .sub-nav__link {
     display: block;
-    font-size: 1.6rem;
+   
     padding: 14px 12px;
     color: var(--black-cl-1)
 }
@@ -1061,7 +1061,7 @@ textarea.form-control {
 }
 
 .product__avt {
-    padding-top: 100%;
+  
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1072,10 +1072,10 @@ textarea.form-control {
 }
 
 .product__name {
-    font-size: 1.6rem;
+   
     font-weight: 500;
     line-height: 1.8rem;
-    height: calc(18px);
+   
     overflow: hidden;
     display: block;
     display: -webkit-box;
@@ -1109,7 +1109,7 @@ textarea.form-control {
 .product__sale {
     position: absolute;
     top: 0;
-    right: 0;
+   
     background-color: #f8d133;
     width: 36px;
     height: 32px;
@@ -1155,7 +1155,7 @@ textarea.form-control {
     width: 90%;
     padding: 12px 0;
     background-color: rgba(0, 0, 0, 0.15);
-    font-size: 1.6rem;
+  
     text-align: center;
     color: var(--white-cl-1);
     display: none;
@@ -1251,7 +1251,7 @@ textarea.form-control {
     width: 44px;
     height: 44px;
     text-align: center;
-    font-size: 1.6rem;
+   
     display: inline-block;
     vertical-align: top;
     margin: 0;
@@ -1345,7 +1345,7 @@ textarea.form-control {
 }
 
 .category__title {
-    font-size: 1.6rem;
+   
     text-align: center;
     margin-bottom: 12px;
 }
@@ -1427,7 +1427,7 @@ textarea.form-control {
     }
     .header__nav-link {
         color: var(--white-cl-1);
-        font-size: 1.6rem;
+      
         padding: 4px 12px;
         font-weight: 400;
     }

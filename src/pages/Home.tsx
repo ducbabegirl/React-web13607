@@ -2,13 +2,15 @@
 import React from 'react'
 import News from '../components/News'
 import { ProductType } from '../types/produc'
+import img from "../img/product1.jpg"
+
 type HomeProps = {
   products: ProductType[]
 }
 
 const Home = (props: HomeProps) => {
   return (
-    <><h1>Thông Tin</h1>
+    <>
      
         <div className="main__tabnine">
           <div className="grid wide">
@@ -33,7 +35,8 @@ const Home = (props: HomeProps) => {
              return <div className="col l-2 m-4 s-6">
                     <div className="product">
                       <div className="product__avt" >
-                        <img src="" alt="" />
+                      <img src={img} alt="" style={{marginLeft: 20}}/>
+                     
                       </div>
                       <div className="product__info">
                         <h3 className="product__name">{product.name}</h3>
