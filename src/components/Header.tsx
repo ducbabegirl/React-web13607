@@ -3,8 +3,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Menu from "./Menu";
 import Search from "./Search";
-import '../Apphome.css'
-
+import '../Apphome.css';
+import logo from "../img/logo.png"
 const Header = () => {
   return (
     <><nav className="navbar navbar-expand-lg navbar-light bg-light" /><div className="container-fluid">
@@ -35,7 +35,7 @@ const Header = () => {
             <span></span>
           </div>
           <a href="index.html" className="header__logo">
-
+             <img src={logo} style={{ marginLeft: 20,  }}/>
           </a>
           <div className="header__search">
             <div className="header__search-wrap">
