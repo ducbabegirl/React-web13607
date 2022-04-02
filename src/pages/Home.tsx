@@ -33,6 +33,7 @@ const Home = (props: HomeProps) => {
              return <div className="col l-2 m-4 s-6">
                     <div className="product">
                       <div className="product__avt" >
+                        <img src="" alt="" />
                       </div>
                       <div className="product__info">
                         <h3 className="product__name">{product.name}</h3>
