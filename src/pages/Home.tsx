@@ -3,6 +3,7 @@ import React from 'react'
 import News from '../components/News'
 import { ProductType } from '../types/produc'
 import img from "../img/product1.jpg"
+import Footer from "../components/Footer"
 
 type HomeProps = {
   products: ProductType[]
@@ -51,8 +52,8 @@ const Home = (props: HomeProps) => {
                           <span className="product__sale-text">Giảm</span>
                         </div>
                       </div>
-                      <a href="product.html" className="viewDetail">Xem chi tiết</a>
-                      <a href="cart.html" className="addToCart">Thêm vào giỏ</a>
+                      <a href="product.html" className="viewDetail" style={{textDecoration:'none'}}>Xem chi tiết</a>
+                      <a href="cart.html" className="addToCart" style={{textDecoration:'none'}}>Thêm vào giỏ</a>
                     </div>
                   </div>
                    })}
@@ -62,7 +63,7 @@ const Home = (props: HomeProps) => {
             </div>
           </div>
         </div>
-    
+    <Footer/>
    </>
 
 

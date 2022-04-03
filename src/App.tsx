@@ -61,7 +61,6 @@ function App() {
       <Route path="/" element={<WebsiteLayout />}>
           <Route index element={<Home products={products} />} />
           <Route path="product" element={<Product />} />
-          
           <Route path="signup" element={<Signup />}/>
           <Route path="signin" element={<Signin />}/>
       </Route>
@@ -69,6 +68,7 @@ function App() {
       <Route path="admin" element={<AdminLayout />}> 
         <Route index element={<Navigate to="dashboard"/>} />
         <Route path="dashboard" element={<Dashboard />} />
+        
         <Route path="product">
           <Route index element={<ManagerProduct data={products} onRemove={onHandleRemove}/>} />
           <Route path="add" element={<ProductAdd onAdd={onHandleAdd}/>} />

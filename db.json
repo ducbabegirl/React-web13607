@@ -1,27 +1,12 @@
 {
   "products": [
     {
-      "name": "ddeeeeeeeeeeeeeeeeee",
+      "name": "yêuuu",
       "price": "444444",
       "id": 2
     },
     {
-      "name": "ddddddddd",
-      "price": "333335555",
-      "id": 3
-    },
-    {
-      "name": "ddeeeeeeeeeeeeeeeeee",
-      "price": "444444",
-      "id": 2
-    },
-    {
-      "name": "ddeeeeeeeeeeeeeeeeee",
-      "price": "444444",
-      "id": 2
-    },
-    {
-      "name": "yêuuus",
+      "name": "yêuuu",
       "price": "444444",
       "id": 2
     },
@@ -45,5 +30,6 @@
       "price": "444444",
       "id": 2
     }
+  
   ]
 }
