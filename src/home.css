@@ -1,7 +1,7 @@
 /* =====Css lại header cho trang home====== */
 
 .header.scrolling {
-    background-color: transparent;
+   background-color: #c3e6ea;
 }
 
 .header.scrolling .header__nav {
@@ -19,7 +19,7 @@
 }
 
 .header.scrolling .header__search-wrap {
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    
 }
 
 .header.scrolling .header__search-icon i,
@@ -59,7 +59,7 @@
     background-position: center;
     z-index: 1;
     display: none;
-    padding: 0 15px;
+   
     animation: slide 2.5s ease;
     height: 100%;
 }
@@ -446,7 +446,7 @@
         display: none;
     }
     .tab-item {
-        font-size: 1.6rem;
+       font-size: 20px;
         min-width: 40px;
         padding: 12px;
         text-transform: none;

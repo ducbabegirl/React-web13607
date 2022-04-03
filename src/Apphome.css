@@ -716,7 +716,7 @@ textarea.form-control {
     display: block;
   text-decoration: none;
     text-transform: uppercase;
-    color: var(--white-cl-1);
+    color: var(--white-cl-4);
     padding: 0 44px;
     line-height: 5rem;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);

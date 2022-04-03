@@ -10,22 +10,23 @@ import '../produc.css';
 import '../libra.css';
 import '../new.css';
 
-import logo from "../img/logo.png"; 
-import slidea from "../img/slide-3.jpg"; 
-import slideb from "../img/slide-4.jpg"; 
-import slidec from "../img/slide-6.jpg"; 
+import logo from "../img/logo.png";
+import slidea from "../img/slide-3.jpg";
+import slideb from "../img/slide-4.jpg";
+import slidec from "../img/slide-6.jpg";
 
 
 import BackgroundHeader from "../img/ban.gif";
 const BackgroundHead = {
   backgroundImage: 'url(' + BackgroundHeader + ')',
-  
+
 }
 const Header = () => {
   return (
-    <><nav className="navbar navbar-expand-lg navbar-light bg-light" /><div className="container-fluid">
+    <><nav className="navbar navbar-expand-lg navbar-light bg-light" />
+    <div className="container-fluid"  style={{background: '#c3e6ea'}}>
       <NavLink className="navbar-brand" to="/">
-        Logo
+       
       </NavLink>
       <button
         className="navbar-toggler"
@@ -57,17 +58,17 @@ const Header = () => {
               <div className="header__search-wrap">
                 <input type="text" className="header__search-input" placeholder="Tìm kiếm" />
                 <a className="header__search-icon" href="#">
-                  <i className="fas fa-search"></i>
+                  <i className="fas fa-search" style={{color:'#9e5bab'}}></i>
                 </a>
               </div>
             </div>
             <div className="header__account">
-              <a href="#my-Login" className="header__account-login">Đăng Nhập</a>
-              <a href="#my-Register" className="header__account-register">Đăng Kí</a>
+              <a href="#my-Login" className="header__account-login" style={{color:'#9e5bab'}}>Đăng Nhập</a>
+              <a href="#my-Register" className="header__account-register" style={{color:'#9e5bab'}}>Đăng Kí</a>
             </div>
 
             <div className="header__cart have">
-              <i className="fas fa-shopping-basket"></i>
+              <i className="fas fa-shopping-basket" style={{color:'#9e5bab', fontSize: 30}}></i>
 
 
             </div>
@@ -99,61 +100,62 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      
 
 
-      <div className="main" style={{marginTop: 100}}>
+
+      <div className="main" style={{ marginTop: 0 }}>
         <div className="main__slice">
-        <div className="slider">
-                <div className="slide active">
-                  <img src={slidea} alt="" width={1200} />
-                    <div className="container">
-                        <div className="caption">
-                            <h1>Giảm giá 30%</h1>
-                            <p>Giảm giá cực sốc trong tháng 6!</p>
-                            <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
+          <div className="slider">
+            <div className="slide active">
+              <img src={slidea} alt="" width={1450} />
+              <div className="container">
+                <div className="caption">
+                  <h1>Giảm giá 30%</h1>
+                  <p>Giảm giá cực sốc trong tháng 6!</p>
+                  <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
 
-                        </div>
-                    </div>
                 </div>
-                <div className="slide active" >
-                <img src={slideb} alt="" width={1200} />
-                    <div className="container">
-                        <div className="caption">
-                            <h1>Giảm giá 30%</h1>
-                            <p>Giảm giá cực sốc trong tháng 6!</p>
-                            <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
-
-                        </div>
-                    </div>
-                </div>
-                <div className="slide active" >
-                <img src={slidec} alt="" width={1200} />
-                    <div className="container">
-                        <div className="caption">
-                            <h1>Giảm giá 30%</h1>
-                            <p>Giảm giá cực sốc trong tháng 6!</p>
-                            <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
-
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-          
+            <div className="slide active" >
+              <img src={slideb} alt="" width={1200} />
+              <div className="container">
+                <div className="caption">
+                  <h1>Giảm giá 30%</h1>
+                  <p>Giảm giá cực sốc trong tháng 6!</p>
+                  <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
+
+                </div>
+              </div>
+            </div>
+            <div className="slide active" >
+              <img src={slidec} alt="" width={1200} />
+              <div className="container">
+                <div className="caption">
+                  <h1>Giảm giá 30%</h1>
+                  <p>Giảm giá cực sốc trong tháng 6!</p>
+                  <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 
           {/* <img src={BackgroundHeader} alt="" style={{width:1300}}/> */}
-         <div>
-         </div>
+          <div>
+          </div>
         </div>
+       
       </div>
 
       <div />
       <div>
 
       </div>
-      
-     
+
+
 
 
     </div></>
