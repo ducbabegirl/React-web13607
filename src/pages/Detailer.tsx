@@ -4,6 +4,7 @@ import { read } from '../api/products';
 import { useNavigate, useParams } from 'react-router-dom';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import {ProductType} from '../types/produc'
+import '../detai.css';
 
 type DetailerProps = {
     products: ProductType[]
@@ -29,13 +30,7 @@ function Detailer (props: DetailerProps) {
 
     return (
 <div>
-  <form >
-    <input type="text" placeholder="Tên sản phẩm" {...register('name')} />
-    <input type="number" placeholder="Giá sản phẩm" {...register('price')} />
-    <button>Update</button>
-  </form>
- <form>
- <div className="main">
+  <div className="main">
     <div className="grid wide">
       <div className="productInfo">
         <div className="row">
@@ -90,12 +85,10 @@ function Detailer (props: DetailerProps) {
               </div>
             </div>
          
-            <h3 className="productInfo__name" >
-              Azrouel dress variable
-            </h3>
-            <h3  {...register('name')}/>
+            <input type="text" placeholder="Enter Name." className="input" {...register('name')}/>
             <div className="productInfo__price">
-              330.000 <span className="priceInfo__unit">đ</span>
+            <input type="text" placeholder="Enter Name." className="input" {...register('price')}/>
+             <span className="priceInfo__unit">đ</span>
             </div>
             <div className="productInfo__description">
               <span> Lorem Ipsum </span> chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình
@@ -412,7 +405,6 @@ function Detailer (props: DetailerProps) {
       </div>
     </div>
   </div>
- </form>
 </div>
 
     );
