@@ -11,6 +11,9 @@ import '../libra.css';
 import '../new.css';
 
 import logo from "../img/logo.png"; 
+import slidea from "../img/slide-3.jpg"; 
+import slideb from "../img/slide-4.jpg"; 
+import slidec from "../img/slide-6.jpg"; 
 
 
 import BackgroundHeader from "../img/ban.gif";
@@ -103,6 +106,7 @@ const Header = () => {
         <div className="main__slice">
         <div className="slider">
                 <div className="slide active">
+                  <img src={slidea} alt="" width={1200} />
                     <div className="container">
                         <div className="caption">
                             <h1>Giảm giá 30%</h1>
@@ -113,6 +117,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="slide active" >
+                <img src={slideb} alt="" width={1200} />
                     <div className="container">
                         <div className="caption">
                             <h1>Giảm giá 30%</h1>
@@ -123,6 +128,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="slide active" >
+                <img src={slidec} alt="" width={1200} />
                     <div className="container">
                         <div className="caption">
                             <h1>Giảm giá 30%</h1>
