@@ -14,6 +14,7 @@ import WebsiteLayout from './pages/layouts/WebsiteLayout';
 import AdminLayout from './pages/layouts/AdminLayout';
 import ProductAdd from './pages/ProductAdd';
 import ProductEdit from './pages/ProductEdit';
+import Detailer from './pages/Detailer';
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import Signup from './pages/Signup';
@@ -59,8 +60,13 @@ function App() {
   return ( 
     <Routes>
       <Route path="/" element={<WebsiteLayout />}>
+        
+      <Route path="detailer">
+      <Route path=":id/products" element={<Detailer products={products}/>} />
+      </Route>
           <Route index element={<Home products={products} />} />
           <Route path="product" element={<Product />} />
+        
           <Route path="signup" element={<Signup />}/>
           <Route path="signin" element={<Signin />}/>
       </Route>
@@ -68,7 +74,7 @@ function App() {
       <Route path="admin" element={<AdminLayout />}> 
         <Route index element={<Navigate to="dashboard"/>} />
         <Route path="dashboard" element={<Dashboard />} />
-        
+
         <Route path="product">
           <Route index element={<ManagerProduct data={products} onRemove={onHandleRemove}/>} />
           <Route path="add" element={<ProductAdd onAdd={onHandleAdd}/>} />

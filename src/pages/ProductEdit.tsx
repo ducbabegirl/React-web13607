@@ -8,6 +8,7 @@ type ProductEditProps = {
     onUpdate: (product: ProductType) => void
 }
 type FormInputs = {
+    
     name: string,
     price: number
 }
