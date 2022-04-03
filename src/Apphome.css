@@ -705,6 +705,7 @@ textarea.form-control {
 .header__nav-list {
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
 
 .header__nav-item {
@@ -713,7 +714,7 @@ textarea.form-control {
 
 .header__nav-link {
     display: block;
-  
+  text-decoration: none;
     text-transform: uppercase;
     color: var(--white-cl-1);
     padding: 0 44px;

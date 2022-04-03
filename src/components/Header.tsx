@@ -95,18 +95,50 @@ const Header = () => {
             <Menu />
           </ul>
         </div>
-      </div><div className="main" style={{marginTop: 100}}>
+      </div>
+      
 
+
+      <div className="main" style={{marginTop: 100}}>
         <div className="main__slice">
-          <img src={BackgroundHeader} alt="" style={{width:1300}}/>
-        
+        <div className="slider">
+                <div className="slide active">
+                    <div className="container">
+                        <div className="caption">
+                            <h1>Giảm giá 30%</h1>
+                            <p>Giảm giá cực sốc trong tháng 6!</p>
+                            <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
 
+                        </div>
+                    </div>
+                </div>
+                <div className="slide active" >
+                    <div className="container">
+                        <div className="caption">
+                            <h1>Giảm giá 30%</h1>
+                            <p>Giảm giá cực sốc trong tháng 6!</p>
+                            <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
 
-         <div>
-         
+                        </div>
+                    </div>
+                </div>
+                <div className="slide active" >
+                    <div className="container">
+                        <div className="caption">
+                            <h1>Giảm giá 30%</h1>
+                            <p>Giảm giá cực sốc trong tháng 6!</p>
+                            <a href="listProduct.html" className="btn btn--default">Xem ngay</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
           
-         </div>
 
+
+          {/* <img src={BackgroundHeader} alt="" style={{width:1300}}/> */}
+         <div>
+         </div>
         </div>
       </div>
 

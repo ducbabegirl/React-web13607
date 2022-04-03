@@ -5,7 +5,7 @@ type Props = {}
 
 const Menu = (props: Props) => {
   return (
-    <><li className="header__nav-item index" style={{listStyle: 'none',}}>
+    <><li className="header__nav-item index" style={{listStyle: 'none',textDecoration :'none',}}>
       <NavLink className="header__nav-link" aria-current="page" to="/">Home</NavLink>
     </li><li className="header__nav-item"  style={{listStyle: 'none',}}>
       
