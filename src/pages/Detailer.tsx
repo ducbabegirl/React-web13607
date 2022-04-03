@@ -4,6 +4,8 @@ import { read } from '../api/products';
 import { useNavigate, useParams } from 'react-router-dom';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import {ProductType} from '../types/produc'
+
+import produca from "../img/em.jpg";
 import '../detai.css';
 
 type DetailerProps = {
@@ -35,43 +37,9 @@ function Detailer (props: DetailerProps) {
       <div className="productInfo">
         <div className="row">
           <div className="col l-5 m-12 s-12">
-            <div className="owl-carousel owl-theme" id="sync1">
-              <a href="#" className="product">
-                <div className="product__avt" style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-                </div>
-              </a>
-              <a href="#" className="product">
-                <div className="product__avt" style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-                </div>
-              </a>
-              <a href="#" className="product">
-                <div className="product__avt" style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-                </div>
-              </a>
-              <a href="#" className="product">
-                <div className="product__avt" style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-                </div>
-              </a>
-            </div>
-            <div className="owl-carousel owl-theme" id="sync2">
-              <a href="#" className="product">
-                <div className="product__avt" style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-                </div>
-              </a>
-              <a href="#" className="product">
-                <div className="product__avt" style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-                </div>
-              </a>
-              <a href="#" className="product">
-                <div className="product__avt" style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-                </div>
-              </a>
-              <a href="#" className="product">
-                <div className="product__avt" style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-                </div>
-              </a>
-            </div>
+          <img src={produca} />
           </div>
+          
           <div className="col l-7 m-12s s-12 pl">
             <div className="main__breadcrumb">
               <div className="breadcrumb__item">
@@ -386,8 +354,8 @@ function Detailer (props: DetailerProps) {
               </div>
             </a>
             <a href="# " className="product ">
-              <div className="product__avt " style={{backgroundImage: 'url(assets/img/product/sp.jpg)'}}>
-              </div>
+            <img src={produca} />
+             
               <div className="product__info ">
                 <h3 className="product__name ">Framed-Sleeve Tops Group</h3>
                 <div className="product__price ">
@@ -405,6 +373,7 @@ function Detailer (props: DetailerProps) {
       </div>
     </div>
   </div>
+  
 </div>
 
     );
