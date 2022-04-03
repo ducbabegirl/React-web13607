@@ -54,7 +54,7 @@ const Home = (props: HomeProps) => {
                         </div>
                       </div>
                       <a href="product.html" className="viewDetail" style={{textDecoration:'none'}}>Xem chi tiết</a>
-                      <Link to={`/detailer/${product.id}/products`}>Edit</Link>
+                      <Link className="viewDetail" to={`/detailer/${product.id}/products`} style={{textDecoration:'none'}}>Xem chi tiết</Link>
                       <a href="cart.html" className="addToCart" style={{textDecoration:'none'}}>Thêm vào giỏ</a>
                     </div>
                   </div>
