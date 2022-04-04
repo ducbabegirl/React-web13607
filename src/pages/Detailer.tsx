@@ -7,6 +7,7 @@ import {ProductType} from '../types/produc'
 
 import produca from "../img/em.jpg";
 import '../detai.css';
+import Footer from "../components/Footer";
 
 type DetailerProps = {
     products: ProductType[]
@@ -373,8 +374,9 @@ function Detailer (props: DetailerProps) {
       </div>
     </div>
   </div>
-  
+  <Footer/>
 </div>
+
 
     );
 }
