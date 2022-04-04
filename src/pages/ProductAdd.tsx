@@ -21,12 +21,19 @@ const ProductAdd = (props: ProductAddProps) => {
     }
   return (
     <div>
+        <h1>Thêm Sản Phẩm</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
-            <input type="text" {...register('name', { required: true, minLength: 5})}/>
+            <input type="text" placeholder='Tên Sản Phẩm' {...register('name', { required: true, minLength: 5})} style={{width:980, padding:10,}}/>
+            <br />
+            <br />
             {errors.name && errors.name.type === "required" && <span>Required</span>}
+            <br />
             {errors.name && errors.name.type === "minLength" && <span>Min length</span>}
-            <input type="number" {...register('price')}/>
-            <button>Add</button>
+            <br />
+            <input type="number" placeholder='Giá Sản Phẩm' {...register('price')}  style={{width:980, padding:10}}/>
+            <br />
+            <br />
+            <button style={{padding:8, width:100, borderRadius:10, backgroundColor:'#0A2558', color:'#fff'}}>Thêm</button>
         </form>
     </div>
   )

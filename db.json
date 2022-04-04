@@ -1,34 +1,34 @@
 {
   "products": [
     {
-      "name": "kjoai kjaoi",
-      "price": "444444",
-      "id": 1
-    },
-    {
-      "name": "yêuuu",
-      "price": "444444",
+      "name": "ducucuc",
+      "price": "11111",
       "id": 2
     },
     {
-      "name": "yêuuu",
-      "price": "444444",
+      "name": "productpro a",
+      "price": "2222222",
       "id": 3
     },
     {
-      "name": "yêuuu",
-      "price": "444444",
+      "name": "productpro a",
+      "price": "4444",
       "id": 4
     },
     {
-      "name": "yêuuu",
-      "price": "444444",
+      "name": "ddeeeeee",
+      "price": "444",
       "id": 5
     },
     {
-      "name": "yêuuu",
-      "price": "444444",
+      "name": "ddeeeee",
+      "price": "555",
       "id": 6
+    },
+    {
+      "name": "cường occho",
+      "price": "4444",
+      "id": 7
     }
   ]
 }

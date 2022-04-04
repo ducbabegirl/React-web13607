@@ -6,7 +6,7 @@ type Props = {}
 
 const Dashboard = (props: Props) => {
   return (
-    <div>Dashboard ccc</div>
+    <div>Dashboard </div>
   )
 }
 
