@@ -54,9 +54,9 @@ function Detailer (props: DetailerProps) {
               </div>
             </div>
          
-            <input type="text" placeholder="Enter Name." className="input" {...register('name')}/>
+            <input type="text" placeholder="" className="input" {...register('name')}/>
             <div className="productInfo__price">
-            <input type="text" placeholder="Enter Name." className="input" {...register('price')}/>
+            <input type="text" placeholder="" className="input" {...register('price')}/>
              <span className="priceInfo__unit">đ</span>
             </div>
             <div className="productInfo__description">
