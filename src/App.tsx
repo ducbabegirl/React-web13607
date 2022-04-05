@@ -31,7 +31,7 @@ function App() {
      getProducts();
 
      const getProduct = async () =>{
-      const {data} = await axios.get(' http://localhost:3001/products');
+      const {data} = await axios.get('http://localhost:3001/products');
       setProducts(data);
     }
     getProduct();
