@@ -57,15 +57,15 @@ const Header = () => {
             </a>
             <div className="header__search">
               <div className="header__search-wrap">
-                <input type="text" className="header__search-input" placeholder="Tìm kiếm" />
+                <input type="" className="header__search-input" placeholder="Tìm kiếm" />
                 <a className="header__search-icon" href="#">
                   <i className="fas fa-search" style={{color:'#9e5bab'}}></i>
                 </a>
               </div>
             </div>
             <div className="header__account">
-              <a href="#my-Login" className="header__account-login" style={{color:'#9e5bab'}}>Đăng Nhập</a>
-              <a href="#my-Register" className="header__account-register" style={{color:'#9e5bab'}}>Đăng Kí</a>
+              <a href="http://localhost:3000/signin" className="header__account-login" style={{color:'#9e5bab'}}>Đăng Nhập</a>
+              <a href="http://localhost:3000/signup" className="header__account-register" style={{color:'#9e5bab'}}>Đăng Kí</a>
             </div>
 
             <div className="header__cart have">

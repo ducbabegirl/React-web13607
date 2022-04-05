@@ -5,7 +5,7 @@ type FooterProps = {}
 const Footer = (props: FooterProps) => {
     return (
         <div>
-            <div>Footer</div>
+           
            
             <div className="footer">
                 <div className="grid wide">
@@ -89,7 +89,7 @@ const Footer = (props: FooterProps) => {
                                 </li>
                                 <li className="footer__item">
                                     <div className="send-email"  style={{fontSize: 16, textDecoration:'none'}}>
-                                        <input className="send-email__input" type="email" placeholder="Nhập Email..."  />
+                                        <input className="send-email__input" type="e" placeholder="Nhập Email..."  />
                                         <a href="#" className="send-email__link"  >
                                             <i className="fas fa-paper-plane" />
                                         </a>
