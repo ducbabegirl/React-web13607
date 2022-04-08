@@ -32,7 +32,7 @@ const Signin = () => {
                    
                     
                     <label>
-                        <input type="checkbox" name="remember" style={{ marginBottom: 15 }} /> Nhớ Đăng Nhập
+                        <input type="checkbox" name="remember" style={{ marginBottom: 15 }} /> Nhớ Đăng Nhập 
                     </label>
                     <div className="clearfix">
                         <button type="submit" className="signupbtn">Sign in</button>

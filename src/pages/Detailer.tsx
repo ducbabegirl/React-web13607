@@ -43,7 +43,7 @@ function Detailer (props: DetailerProps) {
           
           <div className="col l-7 m-12s s-12 pl">
             <div className="main__breadcrumb">
-              <div className="breadcrumb__item">
+              <div className="breadcrumb__item"> 
                 <a href="#" className="breadcrumb__link">Trang chủ</a>
               </div>
               <div className="breadcrumb__item">
